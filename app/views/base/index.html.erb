@@ -1,0 +1,6 @@
+
+
+
+
+<h1> Hello <%= current_user.email %>, welcome to the main page!</h1>
+<%= link_to "logout", destroy_user_session_path, :method => :delete%>
